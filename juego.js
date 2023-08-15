@@ -24,7 +24,7 @@ export default class Juego extends Phaser.Scene {
         this.ball.setScale(0.7);
         this.ball.setCircle(57, 0, 0)
         this.ball.setBounce(1);
-        this.ballVelocity = 250;
+        this.ballVelocity = 200;
         this.ball.setVelocity(this.ballVelocity, this.ballVelocity);
 
         this.bar = this.physics.add.image(800, 1000, "Bar");
